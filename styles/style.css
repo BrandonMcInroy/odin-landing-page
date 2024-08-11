@@ -97,14 +97,38 @@ h1 {
   border-radius: 10%;
 }
 
-.quote {
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quote .container {
+  display: flex;
+}
+
+.content-quote {
   background: #e5e7eb;
+  padding: 25px;
+}
+
+.content-quote .container {
+  display: flex;
 }
 
 .cta-box {
   background: #3882f6;
+  padding: 25px;
 }
 
 .footer {
   background: #1f2937;
+  padding: 25px;
 }
