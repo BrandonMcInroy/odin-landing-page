@@ -22,11 +22,12 @@ ul {
 
 a {
   text-decoration: none;
+  color: #e5e7eb;
 }
 
 h1 {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: bolder;
   color: #f9faf8;
 }
 
@@ -38,6 +39,13 @@ h1 {
 
 .navbar {
   background: #1f2937;
+  padding: 20px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
 }
 
 .navbar a {
@@ -45,8 +53,7 @@ h1 {
   color: #e5e7eb;
 }
 
-.navbar,
-.container {
+.navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,11 +70,31 @@ h1 {
 
 .header {
   background: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
-.logo {
-  font-size: 24px;
-  color: #f9faf8;
+.header img {
+  max-width: 400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20%;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header p {
+  margin-bottom: 15px;
+}
+
+.button a {
+  background-color: #3882f6;
+  padding: 15px;
+  border-radius: 10%;
 }
 
 .quote {
