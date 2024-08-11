@@ -104,7 +104,7 @@ h2 {
 .button a {
   background-color: #3882f6;
   padding: 15px;
-  border-radius: 10%;
+  border-radius: 10px;
 }
 
 .content {
@@ -154,9 +154,38 @@ h2 {
   font-size: 22px;
 }
 
+.cta {
+  padding: 120px;
+}
+
+.cta .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+}
+
 .cta-box {
+  justify-content: space-between;
+  gap: 8px;
   background: #3882f6;
+  color: #e5e7eb;
   padding: 25px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.cta-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 5px;
+}
+
+.cta-btn a {
+  padding: 15px;
+  border-style: solid;
+  border-color: #f9faf8;
+  border-radius: 10px;
 }
 
 .footer {
