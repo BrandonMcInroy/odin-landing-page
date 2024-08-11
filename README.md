@@ -1,2 +1,3 @@
 # odin-landing-page
-A landing page using Flexbox
+
+This is a landing page using Flexbox.
